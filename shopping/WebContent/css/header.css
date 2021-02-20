@@ -1,0 +1,39 @@
+
+    * {
+            font-family: Go, Arial, malgun gothic,        , NanumGothic, dotum,     ,
+                sans-serif;
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .navber {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px 15px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .navber a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .Login {
+            display: flex;
+            padding: 10px 15px;
+            margin-top: 0px;
+        }
+
+        .menu {
+            display: flex;
+            padding: 10px 15px;
+        }

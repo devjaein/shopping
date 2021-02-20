@@ -1,0 +1,27 @@
+
+        * {
+            font-family: Go, Arial, malgun gothic,        , NanumGothic, dotum,     ,
+                sans-serif;
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px 15px;
+        }
+
+        body {
+            margin: 0;
+        }
+        .border{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .menu {
+            padding: 10px 15px;
+            height: 100%;
+            text-align: center;
+            float: left;
+        }
