@@ -14,7 +14,7 @@
         <div class="logo">
             <ul class="Login">
                 <li><a href=""><br>Login</a></li>
-                <li><a href=""><br>Join</a></li>
+                <li><a href="http://localhost:8085/shopping/login/joinpage.jsp"><br>Join</a></li>
             </ul>
 
         </div>
@@ -30,7 +30,7 @@
         <div class="search">
             <input type="text" placeholder="Search" id="search">
             </button>
-        </div>
+        </div> 
 </body>
 
 </html>

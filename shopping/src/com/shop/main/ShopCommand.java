@@ -19,6 +19,8 @@ public class ShopCommand implements ShopInterface {
 		System.out.println(password);
 		String name = request.getParameter("name");
 		System.out.println(name);
+		String rnn = request.getParameter("rnn");
+		System.out.println(rnn);
 		String gender = request.getParameter("gender");
 		System.out.println(gender);
 		String mail = request.getParameter("mail");
@@ -30,7 +32,7 @@ public class ShopCommand implements ShopInterface {
 		
 		
 		Shopdao sdao=new Shopdao();
-		sdao.insertNewJoin(id, password,name,gender,mail,phone,address);
+		sdao.insertNewJoin(id, password,name,rnn,gender,mail,phone,address);
 	}
 
 }

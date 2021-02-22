@@ -5,6 +5,7 @@ public class Shopdto {
 	private String id;
 	private String passwrod;
 	private String name;
+	private String rnn;
 	private String gender;
 	private String mail;
 	private String phone;
@@ -27,6 +28,12 @@ public class Shopdto {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getRnn() {
+		return rnn;
+	}
+	public void setRnn(String rnn) {
+		this.rnn = rnn;
 	}
 	public String getGender() {
 		return gender;
@@ -53,11 +60,12 @@ public class Shopdto {
 		this.addres = addres;
 	}
 
-	public Shopdto(String id, String passwrod, String name, String gender, String mail, String phone, String addres) {
+	public Shopdto(String id, String passwrod, String name, String rnn, String gender, String mail, String phone, String addres) {
 		super();
 		this.id = id;
 		this.passwrod = passwrod;
 		this.name = name;
+		this.rnn = rnn;
 		this.gender = gender;
 		this.mail = mail;
 		this.phone = phone;

@@ -7,13 +7,13 @@ import java.sql.Statement;
 import com.shop.util.DBConn;
 
 public class Shopdao {
-	public void insertNewJoin(String id, String password, String name, String gender, String mail, String phone, String address) {
+	public void insertNewJoin(String id, String password, String name,String rnn, String gender, String mail, String phone, String address) {
 	      Connection conn = null;
 	      Statement stmt;
 
-	      String sql = "insert into shop(id,password,name,gender,mail,phone,address) values('%s','%s','%s','%s','%s','%s','%s')";
+	      String sql = "insert into shop(id,password,name,rnn,gender,mail,phone,address) values('%s','%s','%s','%s','%s','%s','%s','%s')";
 
-	      sql = String.format(sql, id, password,name,gender,mail,phone,address);
+	      sql = String.format(sql, id, password,name,rnn,gender,mail,phone,address);
 	      try {
 	         conn = DBConn.getInstance();
 	         conn.setAutoCommit(false);
