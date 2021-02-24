@@ -50,14 +50,9 @@ public class ShopController extends HttpServlet {
 		String viewPage = null;
 
 		String uri = request.getRequestURI();
-		System.out.println(uri);
-
 		String conPath = request.getContextPath();
-		System.out.println(conPath);
-
 		String com = uri.substring(conPath.length());
-		System.out.println(com);
-		
+
 		if (com.equals("/login/join.so")) {
 			viewPage = "joinpage.jsp";
 			bCom = new ShopCommand();
@@ -65,12 +60,7 @@ public class ShopController extends HttpServlet {
 			RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
 			dispatcher.forward(request, response);
 		}
-		/*
-		 * if (com.equals("/index/join.so")) { viewPage = "index.jsp"; bCom = new
-		 * ShopCommand(); bCom.execute(request, response); RequestDispatcher dispatcher
-		 * = request.getRequestDispatcher(viewPage); dispatcher.forward(request,
-		 * response); }
-		 */
+
 	}
 
 }

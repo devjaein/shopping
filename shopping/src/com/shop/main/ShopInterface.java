@@ -8,5 +8,4 @@ import javax.servlet.http.HttpServletResponse;
 
 public interface ShopInterface {
 	   void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
-
 }
