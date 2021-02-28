@@ -54,7 +54,7 @@ public class ShopController extends HttpServlet {
 		String com = uri.substring(conPath.length());
 
 		if (com.equals("/login/join.so")) {
-			viewPage = "joinpage.jsp";
+			viewPage = "login.jsp";
 			bCom = new ShopCommand();
 			bCom.execute(request, response);
 			RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
