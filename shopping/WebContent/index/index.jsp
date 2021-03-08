@@ -35,6 +35,7 @@ ul li {
       <div id="header">
          <jsp:include page="../section/header.jsp" />
       </div>
+      
       <div class="topslide">
          <ul>
             <c:forEach items="${topDress}" var="dto">

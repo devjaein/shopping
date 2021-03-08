@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shop.main.ShopCommand;
+import com.shop.main.signUpCommand;
 import com.shop.main.ShopInterface;
 
 
@@ -17,13 +17,13 @@ import com.shop.main.ShopInterface;
  * Servlet implementation class ShopController
  */
 @WebServlet("*.so")
-public class ShopController extends HttpServlet {
+public class signUpController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ShopController() {
+    public signUpController() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -54,8 +54,8 @@ public class ShopController extends HttpServlet {
 		String com = uri.substring(conPath.length());
 
 		if (com.equals("/login/join.so")) {
-			viewPage = "login.jsp";
-			bCom = new ShopCommand();
+			viewPage = "successjoin.jsp";
+			bCom = new signUpCommand();
 			bCom.execute(request, response);
 			RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
 			dispatcher.forward(request, response);

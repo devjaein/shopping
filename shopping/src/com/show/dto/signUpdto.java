@@ -1,6 +1,6 @@
 package com.show.dto;
 
-public class Shopdto {
+public class signUpdto {
 	
 	private String id;
 	private String passwrod;
@@ -10,6 +10,9 @@ public class Shopdto {
 	private String mail;
 	private String phone;
 	private String addres;
+	private int joinId;
+	private String joinName;
+	private String joinImg;
 
 	public String getId() {
 		return id;
@@ -60,7 +63,8 @@ public class Shopdto {
 		this.addres = addres;
 	}
 
-	public Shopdto(String id, String passwrod, String name, String rnn, String gender, String mail, String phone, String addres) {
+	public signUpdto(String id, String passwrod, String name, String rnn, String gender, String mail, String phone,
+			String addres) {
 		super();
 		this.id = id;
 		this.passwrod = passwrod;

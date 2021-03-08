@@ -12,6 +12,9 @@
             align-items: center;
             padding: 10px 15px;
             border-bottom-style: solid;
+            border-bottom: 1px;
+    		border-color: #96460033;
+    		background-color: bisque;
         }
 
         li {
