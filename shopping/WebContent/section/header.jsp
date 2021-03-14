@@ -13,7 +13,7 @@
    <nav class="navber">
         <div class="logo">
             <ul class="Login">
-                <li><a href=""><br>Login</a></li>
+                <li><a href="http://localhost:8083/shopping/login/login.jsp"><br>Login</a></li>
                 <li><a href="http://localhost:8083/shopping/login/joinpage.jsp"><br>Join</a></li>
             </ul>
 

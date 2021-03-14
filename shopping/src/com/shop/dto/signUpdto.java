@@ -1,4 +1,4 @@
-package com.show.dto;
+package com.shop.dto;
 
 public class signUpdto {
 	
